@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'MM9 Prose Antique Cyr';
+    src: url(./fonts/18692.ttf);
+}
+@font-face{
+    font-family: 'NK181';
+    src: url(./fonts/14855.otf);
+}
+
+body{
+    font-family: 'MM9 Prose Antique Cyr';
+    margin: 0;
+}
+
+.header{
+    background: url(./images/headerBackgroundImage.png) center/cover no-repeat;
+    height: auto;
+    padding-bottom: 130px;
+}
+
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 79px;
+    font-family: 'NK181';
+    color: #B9B9B9;
+}
+
+.link{
+    font-size: 30px;
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-left: 126px;
+}
+
+.headerTitle{
+    font-size: 218px;
+    color: #DDDDDD;
+    font-family: 'NK181';
+    margin-top: 200px;
+    text-align: center;
+}
+
+.headerText{
+    color: #DDDDDD;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.workBlock{
+    padding: 150px 0px;
+    background-color: #1B0811;
+}
+
+.workGallery{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.galleryCard{
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+}
+
+.workImage{
+    width: 20vw;
+    height: 29.2vw;
+}
+
+.button{
+    margin-top: 80px;
+}
+
+.buttonRound {
+    border: 2px solid #DDDDDD;
+    border-radius: 200px;
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.buttonText{
+    color: #DDDDDD;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -90px;
+    background-color: #1B0811;
+}
+
+.aboutBlock{
+    display: flex;
+    background-color: #1A1111;
+}
+
+.aboutImage{
+    width: 50%;
+}
+
+.aboutContent{
+    width: 500px;
+    display: block;
+    margin: 105px auto 70px auto;
+    text-align: center;
+}
+
+.aboutTitle{
+    color: #DDDDDD;
+    font-size: 80px;
+    margin-bottom: 46px;
+}
+
+.aboutText{
+    color: #707070;
+    font-size: 30px;
+}
+
+.footer{
+    height: auto;
+    background-color: #1B0811;
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.contact{
+    font-size: 30px;
+    color: #707070;
+    text-decoration: none;
+    margin-left: 80px;
+}
